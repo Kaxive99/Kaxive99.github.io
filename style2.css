@@ -1,0 +1,61 @@
+main body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+main .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 15px;
+}
+main .content {
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10%;
+  padding: 2mm;
+  background-color: white;
+  padding: 30px;
+  width: 70%;
+  margin-bottom: 12.5%;
+  position: relative;
+}
+main img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+main p {
+  font-size: large;
+}
+main label {
+  display: flex;
+  flex-direction: column;
+}
+main input[type="email"] {
+  padding: 5px;
+}
+main button {
+  cursor: grab;
+  padding: 5px;
+  border: 1px solid black;
+  color: white;
+  background-color: #343a40;
+  margin-top: 5px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 5px grey;
+}
+main button:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+main .notify-message {
+  font-size: 8px;
+}
